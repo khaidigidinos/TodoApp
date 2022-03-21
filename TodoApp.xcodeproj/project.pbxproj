@@ -19,7 +19,6 @@
 		888CE4BB27E7915C00D7E893 /* AppLoadingScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 888CE4BA27E7915C00D7E893 /* AppLoadingScreen.swift */; };
 		888CE4BE27E795A600D7E893 /* TodoAppFileManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 888CE4BD27E795A600D7E893 /* TodoAppFileManager.swift */; };
 		888CE4C227E7AF8600D7E893 /* AddNewTodoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 888CE4C127E7AF8600D7E893 /* AddNewTodoView.swift */; };
-		888CE4C727E8009500D7E893 /* Checkbox.swift in Sources */ = {isa = PBXBuildFile; fileRef = 888CE4C627E8009500D7E893 /* Checkbox.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,7 +54,6 @@
 		888CE4BA27E7915C00D7E893 /* AppLoadingScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppLoadingScreen.swift; sourceTree = "<group>"; };
 		888CE4BD27E795A600D7E893 /* TodoAppFileManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoAppFileManager.swift; sourceTree = "<group>"; };
 		888CE4C127E7AF8600D7E893 /* AddNewTodoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddNewTodoView.swift; sourceTree = "<group>"; };
-		888CE4C627E8009500D7E893 /* Checkbox.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Checkbox.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,7 +104,6 @@
 		888CE48927E7876D00D7E893 /* TodoApp */ = {
 			isa = PBXGroup;
 			children = (
-				888CE4C527E8007F00D7E893 /* Components */,
 				888CE4B727E78E8D00D7E893 /* Extensions */,
 				888CE4B427E78E1F00D7E893 /* Views */,
 				888CE48E27E7876F00D7E893 /* Assets.xcassets */,
@@ -159,14 +156,6 @@
 				888CE4B827E78E9C00D7E893 /* TextExtension.swift */,
 			);
 			path = Extensions;
-			sourceTree = "<group>";
-		};
-		888CE4C527E8007F00D7E893 /* Components */ = {
-			isa = PBXGroup;
-			children = (
-				888CE4C627E8009500D7E893 /* Checkbox.swift */,
-			);
-			path = Components;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -299,7 +288,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				888CE4C727E8009500D7E893 /* Checkbox.swift in Sources */,
 				888CE4B927E78E9C00D7E893 /* TextExtension.swift in Sources */,
 				888CE4BE27E795A600D7E893 /* TodoAppFileManager.swift in Sources */,
 				888CE4BB27E7915C00D7E893 /* AppLoadingScreen.swift in Sources */,
