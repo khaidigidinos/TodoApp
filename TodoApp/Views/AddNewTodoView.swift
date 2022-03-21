@@ -19,10 +19,11 @@ struct AddNewTodoView: View {
             ZStack {
                 RoundedRectangle(cornerRadius: 25)
                     .shadow(radius: 3)
-                    .frame(width: 600, height: 50)
+                    .frame(height: 50)
                     .foregroundColor(.white)
+                    .padding()
                 TextField("Enter new item", text: $input)
-                    .frame(width: 480)
+                    .scaledToFit()
                     .padding()
             }.padding(.bottom)
             Button("Save", action: {

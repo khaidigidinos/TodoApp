@@ -21,15 +21,10 @@ struct SplashScreen_Previews: PreviewProvider {
 
 func card(text: String) -> some View {
     ZStack {
-        RoundedRectangle(cornerRadius: 25)
-            .shadow(radius: 3)
-            .frame(width: 600, height: 160)
-            .foregroundColor(.white)
         Text(text)
             .fontWeight(.semibold)
             .scalableText()
             .foregroundColor(Color.black)
-            .frame(width: 400)
     }
 }
 
